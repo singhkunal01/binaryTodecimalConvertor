@@ -2,7 +2,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "Poppins", serif, monospace, fantasy;
+        font-family: "Poppins", Aerial , serif, monospace, fantasy;
       }
       body {
         width: 100vw;
@@ -96,9 +96,10 @@
       }
       @media screen and (max-width:900px){
         form{
-          width: 90%!important;
+          width: 100%;
           margin-left: 10px;
-          height: 80vh;
+          height: 100vh;
+          margin-top: 30%;
         }
         h2.mainHeading{
           font-size: 20px;
