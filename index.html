@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BINARY CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    </style>">
+  </head>
+  <body>
+    <form id="binaryCalc" onsubmit="finalAnswer(); return false">
+      <h2 class="mainHeading"> BINARY-DECIMAL CALCULATOR </h2>
+      <label for="binaryVal"> <strong>NOTE : </strong>
+        Please Enter The Values in Which You want To Convert
+      </label>
+      <br />
+      <input
+        type="number"
+        name="binaryVal"
+        id="binaryVal"
+        placeholder="Enter The Number "
+      />
+      <select id="switchConvert" name="switchConvert">
+        <option value="bin">BINARY</option>
+        <option value="dec">DECIMAL</option>
+      </select>
+      <br />
+      <input type="submit" name="binaryVal" class="active"/> <br />
+      <span id="finalResult"></span> <br/>
+      <p id="claim">&copy; Designed By Kunal Singh</p>
+    </form>
+    <script  src="script.js"></script>
+  </body>
+</html>
