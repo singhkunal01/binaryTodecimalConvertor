@@ -1,110 +1,111 @@
-  * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "Poppins","Fira Code", Arial , serif, monospace, fantasy;
-      }
-      body {
-        width: 100vw;
-        background-color:#fff;
-        height: 100vh;
-        display: grid;
-        place-items: center;
-      }
-      h2.mainHeading{
-      text-align: center;
-      margin: 20px;
-      color: purple
-      ;
-      font-size: 25px;
-    }
-      form {
-        box-shadow: -6px -6px 9px #ffff,
-             6px 6px 9px rgba(0, 0, 0, 0.4);
-        background-color: #fff;
-        padding: 40px;
-        width: 50%;
-        border-radius: 20px;
-        /* rgba(57, 57, 57, 0.7) */
-        margin: 100px auto;
-        text-align: center;
-      }
-      #binaryCalc label {
-        font-size: 17px;
-      }
-      #binaryVal {
-        box-shadow:
-        inset -4px -4px 9px #ffff, inset 4px 4px 11px rgb(0 0 0 / 21%);
-        padding: 10px;
-        height: 35px;
-        color: rgb(238,31,90);
-        font-weight: 700;
-        border: none;
-        width: 165px;
-        font-weight: 400;
-        font-size: 14px;
-        margin: 20px 5px;
-        outline: none;
-      }
-      input::-webkit-inner-spin-button {
-        -webkit-appearance:none;
-        margin: 0;
-      }
-      #switchConvert {
-        height: 35px;
-        border: none;
-        box-shadow: inset -4px -4px 9px #ffff, inset 4px 4px 11px rgb(0 0 0 / 21%);
-        margin: 20px 5px;
-        font-size: 13px;
-        outline: none;
-    color: rgb(238,31,90);
-            font-weight: 600;
-        vertical-align: top;
-      }
-      [type="submit"] {
-        height: 30px;
-        width: 90px;
-        box-shadow: -6px -6px 9px #ffff,
-             6px 6px 9px rgba(0, 0, 0, 0.3);
-        border: none;
-        margin: 30px;
-        cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        outline: none;
-        color: black;
-        border-radius: 12px;
-        font-size: 14px;
-      }
-        [type="submit"]:hover,  [type="submit"]:active{
-        background-color: #ccc;
-        color: purple;
-        }
-         [type="submit"]:active{
-           box-shadow: inset -6px -6px 9px #ffff,inset
-                6px 6px 9px rgba(0, 0, 0, 0.1);
-                color: purple;
-         }
-      #finalResult{
-        font-size: 16px;
-        font-weight: 600;
-        color: rgb(238,31,90);
-      }
-      #claim{
-        color: #ccc;
-        font-size: 11px;
-      }
-      @media screen and (max-width:900px){
-        form{
-          width: 100%;
-          margin-left: 10px;
-          height: 100vh;
-          margin-top: 30%;
-        }
-        h2.mainHeading{
-          font-size: 20px;
-        }
-          #binaryCalc label{
-            font-size: 14px;
-          }
-      }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Fira Code", Arial, serif, monospace, fantasy;
+}
+body {
+  width: 100vw;
+  background-color: #fff;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+h2.mainHeading {
+  text-align: center;
+  margin: 20px;
+  color: purple;
+  font-size: 25px;
+}
+form {
+  /* box-shadow: -6px -6px 9px #ffff, 6px 6px 9px rgba(0, 0, 0, 0.4); */
+  border: 1px solid rgb(228, 180, 228);
+  background-color: #fff;
+  padding: 40px;
+  width: 50%;
+  border-radius: 7px;
+  /* rgba(57, 57, 57, 0.7) */
+  margin: 100px auto;
+  text-align: center;
+}
+#binaryCalc label {
+  font-size: 17px;
+}
+#binaryVal {
+  box-shadow: inset -4px -4px 9px #ffff,
+    inset 4px 4px 11px rgba(126, 126, 126, 0.21);
+  padding: 20px;
+  height: 35px;
+  color: rgb(238, 31, 90);
+  font-weight: 700;
+  border: none;
+  width: 265px;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 20px 5px;
+  outline: none;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#switchConvert {
+  height: 35px;
+  border: none;
+  box-shadow: inset -4px -4px 9px #ffff,
+    inset 4px 4px 11px rgba(112, 112, 112, 0.21);
+  padding: 10px;
+  margin: 20px 5px;
+  font-size: 13px;
+  outline: none;
+  color: rgb(238, 31, 90);
+  font-weight: 600;
+  vertical-align: top;
+}
+[type="submit"] {
+  height: 30px;
+  width: 100px;
+  box-shadow: -3px -3px 5px #ffff, 6px 6px 9px rgba(140, 140, 140, 0.3);
+  border: none;
+  margin: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 7px;
+  font-size: 14px;
+}
+[type="submit"]:hover,
+[type="submit"]:active {
+  /* background-color: rgb(255, 255, 255); */
+  color: purple;
+}
+[type="submit"]:active {
+  /* box-shadow: inset -6px -6px 9px #ffff, inset 6px 6px 9px rgba(0, 0, 0, 0.1); */
+  color: purple;
+}
+#finalResult {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(238, 31, 90);
+}
+#claim {
+  color: #ccc;
+  font-size: 14px;
+}
+@media screen and (max-width: 900px) {
+  form {
+    width: 100%;
+    margin-left: 10px;
+    height: 100vh;
+    margin-top: 30%;
+  }
+  h2.mainHeading {
+    font-size: 20px;
+  }
+  #binaryCalc label {
+    font-size: 14px;
+  }
+}
