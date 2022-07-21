@@ -6,7 +6,7 @@
 }
 body {
   width: 100vw;
-  background-color: #fff;
+  background-color: rgb(255, 248, 248);
   height: 100vh;
   display: grid;
   place-items: center;
